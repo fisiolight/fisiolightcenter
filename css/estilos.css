@@ -1,0 +1,78 @@
+
+
+.container-boton-2{
+    background-color: #F9A392;;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 25px;
+    padding: 15px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton-2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton-2{
+    background:#F9A392;
+    color: white;
+    width: 40px;
+    height: 20px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+.container-boton{
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    border-radius: 50%;
+    right: 25px;
+    padding: 0px;
+    transition: ease 0.3s;
+    animation: efecto2 1.2s infinite;
+}
+
+.container-boton-3{
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    border-radius: 50%;
+    right: 25px;
+    bottom: 100px;
+    padding: 0px;
+    transition: ease 0.3s;
+    animation: efecto2 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 60px;
+    height: 60px;
+    transition: ease 1s;
+}
+
+@keyframes efecto2{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
